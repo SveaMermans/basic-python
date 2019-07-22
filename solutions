@@ -18,7 +18,7 @@ numbers = [1,2,3,6]
 
 def sumOfListNumbers(someList):
     total = 0
-    for number in numbers:
+    for number in someList:
         total = (total + number)
     
     return total
