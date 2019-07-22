@@ -14,12 +14,12 @@ def add(a, b):
 
 
 # Data structure
-list = [1,2,3,6]
+numbers = [1,2,3,6]
 
-def sumOfListNumbers(list):
+def sumOfListNumbers(someList):
     total = 0
-    for number in list:
-        total += number
+    for number in numbers:
+        total = (total + number)
     
     return total
 
